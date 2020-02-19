@@ -18,7 +18,7 @@ my_collect(caller_locations) do |name|
   
 end
 
-my_collect(names) do |name|
+my_collect(students) do |name|
   name.capitalize
 end
   
