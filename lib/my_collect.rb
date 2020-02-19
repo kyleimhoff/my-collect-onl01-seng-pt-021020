@@ -14,6 +14,12 @@ def my_collect(array)
 end  
 
 my_collect(caller_locations) do |name|
-  name
+  name.first
+  
 end
+
+my_collect(names) do |name|
+  name.capitalize
+end
+  
 
