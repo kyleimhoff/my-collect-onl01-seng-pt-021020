@@ -14,7 +14,7 @@ def my_collect(array)
 end  
 
 my_collect(caller_locations) do |name|
-  name.first
+  name.
   
 end
 
